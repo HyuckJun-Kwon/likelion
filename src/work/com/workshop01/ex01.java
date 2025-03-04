@@ -1,5 +1,5 @@
 package work.com.workshop01;
-//test
+
 public class ex01 {
 
 	public static void main(String[] args) {

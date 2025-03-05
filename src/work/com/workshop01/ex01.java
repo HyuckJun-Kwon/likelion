@@ -8,6 +8,7 @@ public class ex01 {
 		char c = 'A';
 		boolean b = true;
 		
+		
 		System.out.println("정수형 변수의 값은 " + i + "이며, 자료형은 " + ((Object)i).getClass().getSimpleName() +"입니다.");
 		System.out.println("실수형 변수의 값은 " + d + "이며, 자료형은 " + ((Object)d).getClass().getSimpleName() +"입니다.");
 		System.out.println("문자형 변수의 값은 " + c + "이며, 자료형은 " + ((Object)c).getClass().getSimpleName() +"입니다.");

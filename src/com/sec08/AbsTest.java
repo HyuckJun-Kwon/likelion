@@ -13,7 +13,8 @@ class myTest extends My {
 }
 public class AbsTest {
 	public static void main(String[] args) {
-		// My m=new My(); 
+		//My m=new My();
+		//My m=new myTest();는 가능
 		myTest m = new myTest();
 		m.prn();
 		m.disp();

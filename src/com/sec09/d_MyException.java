@@ -24,15 +24,13 @@ public class d_MyException {
             System.out.println("입력 값: " + a);
 
         } catch (CustomException e) {
-            System.err.println("사용자 정의 예외 발생: " + e.getMessage() + " : " + e.toString());
+            System.err.println("사용자 정의 예외 발생: " + e.getMessage());
         } catch (NumberFormatException e) {
-            System.err.println("숫자가 아닌 값을 입력하셨습니다: " + e.getMessage()+ " : " + e.toString());
+            System.err.println("숫자가 아닌 값을 입력하셨습니다: " + e.getMessage());
         } catch (IllegalArgumentException e) {
-            System.err.println("잘못된 입력: " + e.getMessage()+ " : " + e.toString());
+            System.err.println("잘못된 입력: " + e.getMessage());
         } catch (Exception e) {
-            System.err.println("예외 발생: " + e+ " : " + e.toString());
-        }finally {
-        	System.out.println("예외와 상관없이 실행");
+            System.err.println("예외 발생: " + e);
         }
     }
 }

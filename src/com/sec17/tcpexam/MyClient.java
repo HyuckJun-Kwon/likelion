@@ -16,7 +16,7 @@ public class MyClient {
 		try {
 			socket = new Socket("localhost", 9999);
 			System.out.println("나 클라이언트야 !!");
-// 2. Socket 객체로부터 서버와의 통신을 위한 InputStream, OutputStream을 얻는다.
+			// 2. Socket 객체로부터 서버와의 통신을 위한 InputStream, OutputStream을 얻는다.
 	       BufferedReader br= new BufferedReader (new InputStreamReader(socket.getInputStream(),"UTF-8"));
 	       System.out.println("서버가 준 메시지  :" + br.readLine());
 	       br.close();
